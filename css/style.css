@@ -14,3 +14,41 @@ body{
 .bg-navbar{
     background-color: bisque;
 }
+
+
+/* css tabla */
+.bg-diseñador{
+    background-color: #efac51;
+}
+
+.bg-maquetador{
+    background-color: #de9537;
+}
+
+.bg-programador{
+    background-color: #ce7d1d;
+}
+
+.bg-comunicador{
+    background-color: #bd6503;
+}
+
+.bg-docente{
+    background-color: #9c3505;
+}
+
+.title-th{
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+.text-td{
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+table {
+    border: 1px solid var(--border-primary);
+    border-collapse: collapse;
+    width: 100%;
+}
