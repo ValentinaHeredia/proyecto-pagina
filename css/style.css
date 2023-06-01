@@ -17,19 +17,19 @@ body{
 
 
 /* css tabla */
-.bg-diseñador{
+.bg-numero{
     background-color: #efac51;
 }
 
-.bg-maquetador{
+.bg-nombre{
     background-color: #de9537;
 }
 
-.bg-programador{
+.bg-año-curso{
     background-color: #ce7d1d;
 }
 
-.bg-comunicador{
+.bg-materia{
     background-color: #bd6503;
 }
 
