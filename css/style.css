@@ -13,6 +13,8 @@ body{
     text-align: center;
     font-size: 5em;
     color: #227a22;
+    font-weight: bolder;
+    margin: 50px;
 }
 
 .footer{
@@ -20,13 +22,199 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-content: space-evenly;
-    margin-top: 10.7%;
+    align-items: center;
+    margin-top: 8.75%;
     margin-bottom: 0%;
+    height: 70px;
 }
 
-.tabla{
-    width: 25%;
+.conteiner{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.box{
+    display: flex;
+    background-color: antiquewhite;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    margin: 10px;
+    border: solid rgb(94, 57, 8);
+    width: 250px;
+}
+
+.des{
+    margin: 10px;
+    border: solid rgb(94, 57, 8);
+}
+
+
+.boxtext{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.bg-aqw{
+    background-color: antiquewhite;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.text{
+    text-align: justify;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1%;
+}
+
+/* css pagina sitio */
+
+.box-sitio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prox{
+    background-color:antiquewhite ;
+    padding: 10px;
+    font-size: 3.5em;
+    color: #ac1010;
+}
+
+/* css pagina presentacion */
+
+.box-presentacion{
+    background: #F7D4A4;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+    width: 337px;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.caja-presentacion{
+    background: #FAEBD7;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+    width: 1810px;
+    height: 443px;
+    margin: 5% 2% 10% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-presentacion{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.title-presentacion{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+/* css pagina público objetivo */
+
+.caja-publico{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-publico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-propuesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAEBD7;
+    margin: 5% 5% 1.5% 5%;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+}
+
+.title-publico{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.subtitles-publico{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.box-interna-publico{
+    background: #F7D4A4;
+    border: 0.4px solid #000000;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.text-publico{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.subtext-publico{
+    font-size: 1.6em;
+}
+
+/* css pagina identidad */
+
+.dp-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dp-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.box-identidad{
+    background: #F7D4A4;
+    border: 0.4px solid #d1a466;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title-identidad{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.text-dominio{
+    font-size: 1.5em;
+}
+
+.text-identidad{
+    font-size: 1.3em;
 }
 
 /* css navbar */
@@ -35,8 +223,12 @@ body{
     background-color: bisque;
 }
 
-
 /* css tabla */
+.box-tabla{
+    display: flex;
+    justify-content: center;
+}
+
 .bg-numero{
     background-color: #efac51;
 }
@@ -71,4 +263,12 @@ table {
     border: 1px solid var(--border-primary);
     border-collapse: collapse;
     width: 100%;
+}
+
+th{
+    width: 300px;
+}
+
+.tabla{
+    width: 33%;
 }
