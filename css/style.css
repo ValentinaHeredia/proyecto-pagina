@@ -5,6 +5,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* css general */
+
 body{
     background-color: #bae0c2;
 }
@@ -16,6 +18,10 @@ body{
     font-weight: bolder;
     margin: 50px;
 }
+.bg-navbar{
+    background-color: bisque;
+    font-size: 1.2em;
+}
 
 .footer{
     background-color: bisque;
@@ -24,7 +30,69 @@ body{
     justify-content:space-evenly;
     align-items: center;
     margin-bottom: 0%;
-    height: 70px;
+    height: 100px;
+}
+
+.bg-aqw{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+/* css inicio */
+
+.title-th{
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: antiquewhite;
+}
+
+.text-td{
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: antiquewhite;
+    width: 400px;
+}
+
+table {
+    border: 1px solid var(--border-primary);
+    border-collapse: collapse;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140.5px;
+}
+
+.bg-numero{
+    background-color: #efac51;
+}
+
+.bg-nombre{
+    background-color: #de9537;
+}
+
+.bg-año-curso{
+    background-color: #ce7d1d;
+}
+
+.bg-materia{
+    background-color: #bd6503;
+}
+
+.bg-docente{
+    background-color: #9c3505;
+}
+
+/* css integrantes */
+
+.cv-text{
+    color: black;
+    text-decoration: none;
+}
+
+.text-nosotros{
+    text-align: center;
 }
 
 .conteiner{
@@ -32,6 +100,7 @@ body{
     width: 100%;
     justify-content: space-around;
     margin-top: 3%;
+    margin-bottom: 150px;
 }
 
 .subconteiner{
@@ -50,10 +119,6 @@ body{
     align-items: center;
 }
 
-.text-nosotros{
-    text-align: center;
-}
-
 .img{
     margin: 10px;
     border: solid rgb(94, 57, 8);
@@ -61,72 +126,50 @@ body{
     border-radius: 10px;
 }
 
-.des{
-    margin: 10px;
-    border: solid rgb(94, 57, 8);
-}
-
-
-.boxtext{
-    margin-top: 3%;
-    width: 100%;
-}
-
-.bg-aqw{
-    background-color: antiquewhite;
-    border: 0.4px solid #000000;
-    border-radius: 10px;
-    margin: 2%;
-}
+/* Css proyecto */
 
 .text{
-    text-align: justify;
-    font-size: 1.5em;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 1%;
+    font-size: 1.7em;
+    margin: 5%;
+    padding: 10px;
 }
 
-/* css pagina sitio */
-
-.box-sitio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.proyecto{
+    margin-bottom: 275px;
 }
+
+/* css sitio */
 
 .prox{
-    background-color:antiquewhite ;
-    padding: 10px;
-    font-size: 3.5em;
+    text-align: center;
     color: #ac1010;
+    font-weight: bolder;
+    font-size: 3em;
+    margin-bottom: 395px;
+    margin-top: 100px;
 }
+
+/* CSS PAGINAS DE AVANCE */
 
 /* css pagina presentacion */
 
-
 .box-presentacion{
+    display: flex;
     background: #F7D4A4;
     border: 0.4px solid #d1a466;
     border-radius: 10px;
-    width: 337px;
-    height: 359px;
-    display: flex;
+    width: 300px;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 5px;
 }
 
-.caja-presentacion{
-    background: #FAEBD7;
-    border: 0.4px solid #000000;
-    border-radius: 10px;
-    padding: 25px;
-    margin: 5% 2% 0% 2%;
+.conteiner-presentacion{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    margin: 3% 50px 225px 50px;
+    padding: 20px;
 }
 
 .text-presentacion{
@@ -140,7 +183,7 @@ body{
     margin-top: 5px;
 }
 
-/* css pagina público objetivo */
+/* css pagina publico */
 
 .caja-publico{
     display: flex;
@@ -194,46 +237,38 @@ body{
 
 /* css pagina identidad */
 
-.dp-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.img-transmitir{
+    width: 50%;
+    margin: 20px;
+    border: solid rgb(94, 57, 8);
+    border-radius: 10px;
 }
 
-.dp-column{
+.conteiner-identidad{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 30px;
+    margin: 3%;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .box-identidad{
     background: #F7D4A4;
     border: 0.4px solid #d1a466;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    margin: 20px;
-    padding: 20px;
-}
-
-.title-identidad{
-    font-weight: bolder;
-    font-size: 2em;
-}
-
-.text-dominio{
-    font-size: 1.5em;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 .text-identidad{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
-.img-transmitir{
-    width: 550px;
-    margin: 20px;
-    border: solid rgb(94, 57, 8);
-    border-radius: 10px;
+.title-identidad{
+    font-size: 1.7em;
+    font-weight: bold;
 }
 
 .title-transmitir{
@@ -259,23 +294,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10%;
 }
 
 .img-decoration{
     border: solid rgb(94, 57, 8);
     border-radius: 10px;
+    width: 70%;
 }
 
 /* css pagina prototipado */
 
 .prototipado{
-    width: 656px;
-    height: 261px;
     background: #FAEBD7;
     border: 0.4px solid #000000;
     border-radius: 10px;
     padding: 25px;
-    margin-bottom: 5.5%;
+    margin: 10% 30px 50% 30px;
 }
 
 .prototipado-cont{
@@ -300,133 +335,122 @@ body{
     font-size: 1em;
 }
 
-/* css navbar */
+/* RESPONSIVE PAGINAS PRINCIPALES */
 
-.bg-navbar{
-    background-color: bisque;
-}
+@media (max-width:1200px){
 
-/* css tabla */
-.box-tabla{
-    display: flex;
-    justify-content: center;
-}
-
-.bg-numero{
-    background-color: #efac51;
-}
-
-.bg-nombre{
-    background-color: #de9537;
-}
-
-.bg-año-curso{
-    background-color: #ce7d1d;
-}
-
-.bg-materia{
-    background-color: #bd6503;
-}
-
-.bg-docente{
-    background-color: #9c3505;
-}
-
-.title-th{
-    font-size: 1.5em;
-    padding: 2%;
-}
-
-.text-td{
-    font-size: 1.5em;
-    padding: 2%;
-}
-
-table {
-    border: 1px solid var(--border-primary);
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th{
-    width: 300px;
-}
-
-
-/* FOOTERS TOP MARGIN*/
-
-.inicio-footer{
-    margin-top: 7.4%;
-}
-
-.integrantes-footer{
-    margin-top: 7.4%;
-}
-
-.proyecto-footer{
-    margin-top: 22%;
-}
-
-.sitio-footer{
-    margin-top: 25.4%;
-}
-
-.prototipado-footer{
-    margin-top: 8.6%;
-}
-
-.rol-footer{
-    margin-top: 13.7%;
-}
-
-.descripcion-footer{
-    margin-top: 5%;
-}
-
-.presentacion-footer{
-    margin-top: 5%;
-}
-
-/* RESPONSIVE */
-
-/* pagina integrantes */
-
-@media (max-width:1300px){
     .conteiner{
-        display: flex;
-        width: 100%;
         flex-direction: column;
-    }
-    
-    .subconteiner{
-        display: flex;
         width: 100%;
-        justify-content: space-evenly;
-        margin-top: 3%;
-    }
-    .tabla{
-        width: 70%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        justify-content: space-around;
     }
 
     .box-presentacion{
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 15px;
-        margin-top: 5px;
+        background: #F7D4A4;
+        border: 0.4px solid #d1a466;
+        border-radius: 10px;
+        width: 200px;
+        padding: 5px;
     }
     
-    .caja-presentacion{
+    .conteiner-presentacion{
+        margin: 3% 20px 225px 20px;
+    }
+    
+    .text-presentacion{
+        font-size: 1em;
+    }
+    
+    .title-presentacion{
+        font-size: 1.50em;
+    }
+
+    .conteiner-identidad{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
+    }
+    .box-identidad{
+        width: 80%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .text-identidad{
+        font-size: 1.em;
+    }
+    
+    .title-identidad{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:900px){
+    .conteiner-presentacion{
+        margin: 3% 20px 225px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-presentacion{
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .text-publico{
+        font-size: 1em;
+        text-align: center;
+    }
+    .subtext-publico{
+        font-size: 0.9em;
+    }
+    .title-publico{
+        font-size: 1.5em;
+        font-weight: bolder;
+        margin: 30px;
+        text-align: center;
+    }
+    .subtitles-publico{
+        font-size: 1em;
+        font-weight: bold;
     }
 }
 
 @media (max-width:600px){
+
+
+    nav ul li a{
+        font-size: 1rem;
+    }
+
+/* Responsive pagina de inicio */
+
+    .title{
+        font-size: 2.5em;
+    }
+
+    .conteiner-onu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text{
+        font-size: 1em;
+        margin: 0;
+        padding: 3px;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+    }
+
     .title-th{
         font-size: 1em;
         padding: 2%;
@@ -434,44 +458,152 @@ th{
     
     .text-td{
         font-size: 1em;
-        padding: 2%;
+        width: 300px;
     }
+
     table {
         margin: 0;
         overflow: auto;
         width: 100vw;
     }
+
+    .tabla{
+        margin-bottom: 50%;
+        margin-top: 2%;
+    }
+
+/* Responsive pagina integrantes */
+
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .box{
+        width: 200px;
+        align-items: center;
+    }
+
+    .img{
+        margin: 10px;
+        width: 125px;
+    }
+
+    .text-nosotros{
+        font-size: 1em;
+    }
+
+    .cv-text{
+        font-size: 0.7em;
+    }
+
+/* Responsive pagina proyecto */
+
+    .text{
+        font-size: 1em;
+        margin: 5%;
+    }
+
+    .proyecto{
+        margin-bottom: 47%;
+        margin-top: 14%;
+    }
+
+/* Responsive pagina sitio */    
+
+    .prox{
+        font-size: 2em;
+        margin-bottom: 395px;
+        margin-top: 100px;
+    }
+
+/* responsive pagina identidad */
+
+    .conteiner-identidad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-identidad{
+        width: 80%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .text-identidad{
+        font-size: 0.7em;
+    }
+
+    .title-identidad{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .title-transmitir{
+        font-weight: bolder;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .text-transmitir{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* responsive de identidad */
+    .img-aling{
+        margin-bottom: 40%;
+        margin-top: 14%;
+    }
+
+    /* Responsive de prototipado */
+    .text-prototipado{
+        text-align: center;
+        font-size: 0.6em;
+    }
+    .title-prototipado{
+        text-align: center;
+        font-size: 1.5em;
+    }
 }
 
 @media (max-width:400px){
-    .conteiner{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
+
+    .title{
+        font-size: 2em;
     }
-    
+
     .subconteiner{
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin-top: 3%;
-    }
-    .title-th{
-        font-size: 0.6em;
-        padding: 1%;
-    }
-    
-    .text-td{
-        font-size: 0.4em;
-        padding: 2%;
-    }
-    table {
-        overflow: auto;
-        width: 100vw;
-    }
-    .footer{
         flex-direction: column;
         align-items: center;
-        height: 90px;
     }
-} 
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .proyecto{
+        margin-bottom: 53%;
+        margin-top: 14%;
+    }
+
+    .tabla{
+        margin-bottom: 55%;
+        margin-top: 2%;
+    }
+}
+
