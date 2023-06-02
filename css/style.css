@@ -426,7 +426,22 @@ th{
     }
 }
 
-@media (max-width:600px){}
+@media (max-width:600px){
+    .title-th{
+        font-size: 1em;
+        padding: 2%;
+    }
+    
+    .text-td{
+        font-size: 1em;
+        padding: 2%;
+    }
+    table {
+        margin: 0;
+        overflow: auto;
+        width: 100vw;
+    }
+}
 
 @media (max-width:400px){
     .conteiner{
@@ -442,26 +457,22 @@ th{
         margin-top: 3%;
     }
     .title-th{
-        font-size: 1em;
+        font-size: 0.6em;
         padding: 2%;
     }
     
     .text-td{
-        font-size: 1em;
+        font-size: 0.4em;
         padding: 2%;
     }
-
     table {
         margin: 0;
         overflow: auto;
         width: 100vw;
     }
-    .box-tabla{
-        display: none;
-    }
     .footer{
         flex-direction: column;
         align-items: center;
-        height: 80px;
+        height: 90px;
     }
 }
