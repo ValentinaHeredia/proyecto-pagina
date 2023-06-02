@@ -458,7 +458,7 @@ th{
     }
     .title-th{
         font-size: 0.6em;
-        padding: 2%;
+        padding: 1%;
     }
     
     .text-td{
@@ -466,7 +466,6 @@ th{
         padding: 2%;
     }
     table {
-        margin: 0;
         overflow: auto;
         width: 100vw;
     }
@@ -475,4 +474,4 @@ th{
         align-items: center;
         height: 90px;
     }
-}
+} 
