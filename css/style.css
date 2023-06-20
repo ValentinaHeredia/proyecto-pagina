@@ -140,9 +140,15 @@ table {
 
 /* css sitio */
 
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .prox{
     text-align: center;
-    color: #ac1010;
+    color: #5e1e04;
     font-weight: bolder;
     font-size: 3em;
     margin-bottom: 395px;
