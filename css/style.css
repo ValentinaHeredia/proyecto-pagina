@@ -135,7 +135,22 @@ table {
 }
 
 .proyecto{
-    margin-bottom: 275px;
+    margin-bottom: 30px;
+}
+
+.p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-video{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.video{
+    width: 560px; 
+    height: 315px;
 }
 
 /* css sitio */
@@ -441,6 +456,13 @@ table {
         font-size: 1rem;
     }
 
+/* responsive video */
+
+    .video{
+        width: 353px; 
+        height: 210px;
+    }
+
 /* Responsive pagina de inicio */
 
     .title{
@@ -521,7 +543,7 @@ table {
     }
 
     .proyecto{
-        margin-bottom: 47%;
+        margin-bottom: 20pxpx;
         margin-top: 14%;
     }
 
@@ -621,13 +643,18 @@ table {
     }
 
     .proyecto{
-        margin-bottom: 53%;
+        margin-bottom: 30px;
         margin-top: 14%;
     }
 
     .tabla{
         margin-bottom: 55%;
         margin-top: 2%;
+    }
+
+    .video{
+        width: 280px; 
+        height: 157px;
     }
 }
 
